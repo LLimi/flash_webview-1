@@ -6,8 +6,101 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <WebView
-       android:id="@+id/webview"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"/>
+   <Button
+       android:id="@+id/button3"
+       style="@style/Widget.AppCompat.Button"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="164dp"
+       android:background="#00FFFFFF"
+       android:foreground="@drawable/cafe"
+       android:onClick="Siguiete"
+       android:text="Button"
+       android:textSize="24sp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button4"
+       style="@style/Widget.AppCompat.Button"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="152dp"
+       android:layout_marginTop="164dp"
+       android:background="#00FFFFFF"
+       android:foreground="@drawable/licores"
+       android:onClick="Siguiete_Lico"
+       android:text="Button"
+       android:textSize="24sp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button5"
+       style="@style/Widget.AppCompat.Button"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="280dp"
+       android:layout_marginTop="164dp"
+       android:background="#00FFFFFF"
+       android:foreground="@drawable/supermercado"
+       android:onClick="Siguiete_Super"
+       android:text="Button"
+       android:textSize="24sp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/Btn4"
+       style="@style/Widget.AppCompat.Button"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="44dp"
+       android:background="#00FFFFFF"
+       android:foreground="@drawable/restaurante"
+       android:onClick="Siguiete_Rest"
+       android:text="Button"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button"
+       style="@style/Widget.AppCompat.Button"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="152dp"
+       android:layout_marginTop="44dp"
+       android:background="#00FFFFFF"
+       android:foreground="@drawable/ferreteria"
+       android:onClick="Siguiete_Ferr"
+       android:text="Button"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button2"
+       style="@style/Widget.AppCompat.Button"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="280dp"
+       android:layout_marginTop="44dp"
+       android:background="#00FFFFFF"
+       android:foreground="@drawable/farmacia"
+       android:onClick="Siguiete_Farm"
+       android:text="Button"
+       android:verticalScrollbarPosition="left"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="294dp"
+       android:layout_height="393dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/button4"
+       app:srcCompat="@drawable/icono_flash" />
 </androidx.constraintlayout.widget.ConstraintLayout>

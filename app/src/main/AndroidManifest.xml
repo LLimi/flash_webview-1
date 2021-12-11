@@ -3,8 +3,12 @@
     package="com.demo.flashfact">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <meta-data android:name="android.webkit.WebView.MetricsOptOut" android:value="true" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
+    <meta-data
+        android:name="android.webkit.WebView.MetricsOptOut"
+        android:value="true" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +18,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlashFact">
         <activity
+            android:name=".MainActivity6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,6 +38,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity1" />
+        <activity
+            android:name=".activity_class1"
+            android:exported="true" />
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".activity_class2"
+            android:exported="true" />
+        <activity
+            android:name=".activity_class3"
+            android:exported="true" />
+        <activity
+            android:name=".activity_class4"
+            android:exported="true" />
+        <activity
+            android:name=".activity_class5"
+            android:exported="true" />
+        <activity
+            android:name=".activity_class6"
+            android:exported="true" />
     </application>
 
 </manifest>
